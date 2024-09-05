@@ -1,0 +1,176 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+nav {
+    position: fixed; 
+    top: 0;
+    width: 100%; 
+    z-index: 1000; 
+    background: #e3f2fd;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #08d9d600;
+    height: 5rem;
+    padding: 0 20px;
+}
+
+.logo a {
+    font-size: 40px;
+    font-weight: bold;
+    float: left;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+    margin-left: 10px;
+}
+
+.menunav {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+li a {
+    color: rgb(43, 37, 37);
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.col {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.deskripsi {
+    margin-top: 10vh;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.button {
+    background: #08D9D6;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #FF2E63;
+    text-decoration: none;
+}
+
+.button2 {
+    background: #FF2E63;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+a.button2:hover {
+    background: #08D9D6;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.colbod {
+    display: flex;
+    margin: 20px
+}
+
+.wrapper-col {
+    height: 100rem;
+    margin-top: 5rem;
+}
+
+.gmbr {
+    margin-left: 20px;
+}
+
+.col2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.colbod2 {
+    display: flex;
+    margin: 20px;
+}
+
+section .class {
+    display: flex;
+    align-items: center;
+}
+
+#class img {
+    margin-left: 20px;
+    height: auto;
+}
+
+.center {
+    text-align: center;
+    width: 100%;
+}
+
+.mentor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mentor-card {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.mentor-card img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.mentor-card p {
+    font-family: 'comic sans ms';
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    color: #364f6b;
+}
